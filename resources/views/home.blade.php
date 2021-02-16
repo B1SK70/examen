@@ -6,7 +6,7 @@
     Bienvenido! 
     Esta es mi pagina web express
 
-    <img src="{{ URL::to('https://images.pexels.com/photos/3837278/pexels-photo-3837278.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940') }}"
+    <img src="{{ URL::to('https://images.pexels.com/photos/531844/pexels-photo-531844.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940') }}"
 
 
 @endsection
