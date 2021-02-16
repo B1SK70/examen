@@ -81,7 +81,7 @@
 <!-- Begin page content -->
 <main class="flex-shrink-0">
   <div class="container">
-    <h1 class="mt-5">@yield('headder');</h1>
+    <h1 class="mt-5">@yield('headder')</h1>
     <p class="lead">@yield('section')</p>
 
   </div>
@@ -90,7 +90,7 @@
 <footer class="footer mt-auto py-3 bg-light">
   <div class="container">
     <span class="text-muted">
-        @yield('footer');
+        @yield('footer')
     </span>
   </div>
 </footer>
