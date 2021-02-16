@@ -17,14 +17,18 @@ Route::get('/', function () {
     return view('home');
 });
 
-Route::get('/', function () {
+Route::get('/home', function () {
+    return view('home');
+});
+
+Route::get('/migraciones', function () {
     return view('migraciones');
 });
 
-Route::get('/', function () {
+Route::get('/seeders', function () {
     return view('seeders');
 });
 
-Route::get('/', function () {
+Route::get('/mail', function () {
     return view('mail');
 });

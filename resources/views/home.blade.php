@@ -2,14 +2,24 @@
 
 @section('header')
     
-    <ul>
-        <li><a>Home</a></li>
-        <li><a>Migraciones</a></li>
-        <li><a>Seeders</a></li>
-        <li><a>Mail</a></li>
+    <ul class="list-group">
+        <li class="list-group-item"><a>Home</a></li>
+        <li class="list-group-item"><a>Migraciones</a></li>
+        <li class="list-group-item"><a>Seeders</a></li>
+        <li class="list-group-item"><a>Mail</a></li>
     </ul>
     
 @endsection
+
+@section('contenido')
+    Bienvenido!    
+
+
+
+@endsection
+
+
+
 
 
 @section('footer')

@@ -60,13 +60,16 @@
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav me-auto mb-2 mb-md-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link active" aria-current="page" href="home">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link active" aria-current="page" href="migraciones">Migraciones</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            <a class="nav-link active" aria-current="page" href="seeders">Seeders</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="mail">Mail</a>
           </li>
         </ul>
         <form class="d-flex">
@@ -81,8 +84,8 @@
 <!-- Begin page content -->
 <main class="flex-shrink-0">
   <div class="container">
-    <h1 class="mt-5">@yield('headder')</h1>
-    <p class="lead">@yield('section')</p>
+    <h1 class="mt-5">@yield('head')</h1>
+    <p class="lead">@yield('contenido')</p>
 
   </div>
 </main>
